@@ -1,0 +1,92 @@
+*************************
+*** Lexical Analysis ***
+***   Reference:PL/0  ***
+*** FileSource:test.txt ***
+*************************
+{  program  }
+{  re, ID  }
+{  ;  }
+{  const  }
+{  er, ID  }
+[ERROR] Missing ¡°=¡±near the ¡°£º¡±  (Row 1, Column 10)
+{  ,  }
+[ERROR]  Invalid ID :123te (Row 1, Column 17)
+{ := }
+{  a, ID  }
+{  ,  }
+{  tt, ID  }
+{ := }
+{  3,INT  }
+{  ;  }
+{  var  }
+{  be, ID  }
+{  ,  }
+{  i, ID  }
+{  ,  }
+{  count, ID  }
+{  ;  }
+{  procedure  }
+{  add, ID  }
+{  (  }
+{  x, ID  }
+{  ,  }
+{  y, ID  }
+{  )  }
+{  ;  }
+{  begin  }
+{  if  }
+{  y, ID  }
+{ > }
+{  0,INT  }
+{  then  }
+{  count, ID  }
+{ := }
+{  count, ID  }
+{  +  }
+{  x, ID  }
+{  ;  }
+{  if  }
+{  y, ID  }
+{ > }
+{  0,INT  }
+{  then  }
+{  call  }
+{  add, ID  }
+{  (  }
+{  x, ID  }
+{  +  }
+{  1,INT  }
+{  ,  }
+{  y, ID  }
+{  -  }
+{  1,INT  }
+{  )  }
+{  end  }
+{  begin  }
+{  count, ID  }
+{ := }
+{  0,INT  }
+{  ;  }
+{  read  }
+{  (  }
+{  be, ID  }
+{  )  }
+{  ;  }
+{  read  }
+{  (  }
+{  i, ID  }
+{  )  }
+{  ;  }
+{  call  }
+{  add, ID  }
+{  (  }
+{  be, ID  }
+{  ,  }
+{  i, ID  }
+{  )  }
+{  ;  }
+{  write  }
+{  (  }
+{  count, ID  }
+{  )  }
+{  end  }
