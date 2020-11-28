@@ -1,0 +1,110 @@
+*************************
+*** Lexical Analysis ***
+***   Reference:PL/0  ***
+*** FileSource:test.txt ***
+*************************
+{  program  }
+{  re, ID  }
+{  const  }
+{  er, ID  }
+{ := }
+{  3,INT  }
+{  ,  }
+{  te123, ID  }
+{ := }
+{  a, ID  }
+{  ,  }
+{  tt, ID  }
+{ := }
+{  ,  }
+[LEXICAL ERROR]  Invalid ID :123miao (Row 2, Column 36)
+{ := }
+{  2,INT  }
+{  ;  }
+{  var  }
+{  be, ID  }
+{  ,  }
+[LEXICAL ERROR]  Invalid ID :56i (Row 3, Column 11)
+{  ,  }
+{  count, ID  }
+{  ;  }
+{  procedure  }
+{  add, ID  }
+{  (  }
+{  x, ID  }
+{  ,  }
+{  y, ID  }
+{  ;  }
+{  begin  }
+{  if  }
+{  y, ID  }
+{ > }
+{  0,INT  }
+{  then  }
+{  count, ID  }
+{ := }
+{  count, ID  }
+{  +  }
+{  x, ID  }
+{  ;  }
+{  if  }
+{  y, ID  }
+{ > }
+{  0,INT  }
+{  then  }
+{  call  }
+{  add, ID  }
+{  (  }
+{  x, ID  }
+{  +  }
+{  1,INT  }
+{  ,  }
+{  y, ID  }
+{  -  }
+{  1,INT  }
+{  )  }
+{  end  }
+{  procedure  }
+{  sub, ID  }
+{  (  }
+{  x, ID  }
+{  ,  }
+{  y, ID  }
+{  )  }
+{  ;  }
+{  begin  }
+{  te123, ID  }
+{ := }
+{  x, ID  }
+{  -  }
+{  y, ID  }
+{  end  }
+{  begin  }
+{  count, ID  }
+{ := }
+{  0,INT  }
+{  ;  }
+{  begin  }
+{  call  }
+{  add, ID  }
+{  (  }
+{  be, ID  }
+{  ,  }
+{  i, ID  }
+{  )  }
+{  ;  }
+{  read  }
+{  (  }
+{  i, ID  }
+{  )  }
+{  end  }
+{  read  }
+{  (  }
+{  be, ID  }
+{  )  }
+{  ;  }
+{  write  }
+{  (  }
+{  count, ID  }
+{  )  }
+{  end  }

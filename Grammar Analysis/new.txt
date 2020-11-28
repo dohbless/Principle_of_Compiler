@@ -1,0 +1,25 @@
+program re
+const er:=3, te123:=a, tt:=,123miao:=2;
+var be,56i,count;
+procedure add(x,y;
+    begin
+        if y>0 then
+	count:=count+x;
+        if y>0 then
+	call add(x+1,y-1)
+     end
+procedure sub(x,y);
+    begin
+        te123:=x-y
+    end
+begin
+	count:=0;
+	
+                  begin
+                      call add(be,i);
+	      read(i)
+                   end
+                read(be);
+
+	write(count) 
+end
