@@ -1,0 +1,29 @@
+program fib;
+const time:=3;
+var result,i,result;
+procedure fibonacci(b1,b2,b3);
+	begin
+		c:=b1+b2+b3
+	end
+procedure fibonacci(x);
+var sum;
+begin
+     sum:=0;
+     if x<2 then
+          result:=x
+    else
+    begin
+          call fibonacci(y-1);
+          sum:=sum+result;
+          call fibonacci(x-2,x);
+          sum:=sum+result;
+          result:=xum
+    end
+end
+begin
+       ad:=4;
+       time:=fibonacci;
+       call fibonacci(x);
+       write(result);
+end
+   

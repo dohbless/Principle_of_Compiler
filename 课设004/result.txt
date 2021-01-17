@@ -1,0 +1,54 @@
+*************************
+*** Lexical Analysis ***
+***   Reference:PL/0  ***
+*** FileSource:test.txt ***
+*************************
+{  program  }
+{  p, ID  }
+{  ;  }
+{  var  }
+{  c, ID  }
+{  ;  }
+{  procedure  }
+{  p1, ID  }
+{  (  }
+{  b1, ID  }
+{  ,  }
+{  b2, ID  }
+{  ,  }
+{  b3, ID  }
+{  ,  }
+{  b4, ID  }
+{  )  }
+{  ;  }
+{  begin  }
+{  c, ID  }
+{ := }
+{  b1, ID  }
+{  +  }
+{  b2, ID  }
+{  +  }
+{  b3, ID  }
+{  +  }
+{  b4, ID  }
+{  end  }
+{  begin  }
+{  call  }
+{  p1, ID  }
+{  (  }
+{  1,INT  }
+{  ,  }
+{  2,INT  }
+{  ,  }
+{  3,INT  }
+{  ,  }
+{  5,INT  }
+{  +  }
+{  2,INT  }
+{  )  }
+{  ;  }
+{  write  }
+{  (  }
+{  c, ID  }
+{  )  }
+{  end  }
